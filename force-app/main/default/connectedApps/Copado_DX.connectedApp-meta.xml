@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>shoolihan@copado.com</contactEmail>
+    <label>Copado DX</label>
+    <oauthConfig>
+        <callbackUrl>http://localhost:1717/OauthRedirect</callbackUrl>
+        <certificate>MIIC8TCCAdkCFFvtpp1IKOP+nvQgwl+XkJf3zYdQMA0GCSqGSIb3DQEBCwUAMDQxCzAJBgNVBAYTAlVTMQ8wDQYDVQQKDAZDb3BhZG8xFDASBgNVBAMMC3d3dy5jb3BhLmRvMCAXDTIxMTIyMTIyMTg0M1oYDzIxMzEwNjI4MjIxODQzWjA0MQswCQYDVQQGEwJVUzEPMA0GA1UECgwGQ29wYWRvMRQwEgYDVQQDDAt3d3cuY29wYS5kbzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANsE88nQw41P1PM7nzlKD5PFTl7x1smFr0ZAOFNN2tIEpJ2QwnvGPh1E5pS/3sbETTfqlxD7D09UpfNqTk+v+df/SbdPHYit6dVFfV2sCz/etwHOLJBUxrtzzsxwSt4JcDKJs6AbTcyiDcR2bMmhRLcuLNLq5CnreNiJVG2GiS9BZaaNjgfOWmJkff3aMc3zw/JXZjWvSjBBaYi/7UWaDC0ES9fZDOt1XGCEeXJYi8cupIRw47IoZPBBFQLAZbnYq2mReuntRcYsceLe4/cQEF0UQ/l+t2WNLLgWeLpbaTUy0MyuKz8VYiDm58q0w3F7UJEGW47gTZn+/b1delKW+ZUCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEA2Cb6+JBrEVZexHh7cRzclj/D23T1y0qNGwFCpGe8jJOw7RB8eyAlbJejxj6lwdApZeEEK53lnYwIm82wQusEFufwZzKnhFY8+YyOrMp0hU/4Dd+8HsV8EMkanDktARsr2J2tBWzGz+pmTvLh3b4NwEO3ht6/UGg19oWZJe6I8NLyC7LG71kPkWkyx4JOWlM6surArPjccysghmNJqYfscXea9ejmgQVKCtg/QN+6UpmLjCMzCl5+4ciG0xLVIW2U8xFCCVVB+KmfeS4C9kgjphEaRs70E5k0JxT1hUzMUJLg2lBiIlzXIBaIOU6/EPX72VVqZt/u9SzPyxPMhzR9Aw==</certificate>
+        <consumerKey>99262ecdb0474247a661c92271c5dd02d03ceea1e0404da9870ee855ec5b8294</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <isConsumerSecretOptional>false</isConsumerSecretOptional>
+        <isIntrospectAllTokens>false</isIntrospectAllTokens>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+    <oauthPolicy>
+        <ipRelaxation>ENFORCE</ipRelaxation>
+        <refreshTokenPolicy>infinite</refreshTokenPolicy>
+    </oauthPolicy>
+</ConnectedApp>
